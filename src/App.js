@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 import './styles.css';
 
 import Header from './components/Header';
+import Main from './pages/main';
 
 const App = () => (
   <div className="App">
     <Header />
+    <Main />
   </div>
 );
 
@@ -14,7 +16,8 @@ const App = () => (
 //   render() {
 //     return (
 //       <div className="App">
-//         <h1>Hello Esk Info Tech Web</h1>  
+//         <Header />
+//         <Main />
 //       </div>
 //     );
 //   }
